@@ -1,13 +1,12 @@
 import React from "react"
+import Header from "./components/header/Header"
 
 const App = () => {
 
   return (
-    <>
-        <h1 className="text-3xl font-bold underline">
-        Prova tecnica di sviluppo
-        </h1>
-    </>
+    <div>
+        <Header />
+    </div>
   )
 }
 
