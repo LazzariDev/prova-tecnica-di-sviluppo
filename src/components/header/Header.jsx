@@ -6,14 +6,14 @@ import MenuPages from './MenuPages';
 import MenuThemes from './MenuThemes';
 
 const Header = () => {
-  return (
-    <header>
-        <TopHeader />
-        <SearchBarHeader />
-        <MenuModal />
-        <MenuPages />
-        <MenuThemes />
-    </header>
-  )
+    return (
+        <header>
+            <TopHeader />
+            <SearchBarHeader />
+            <MenuModal />
+            <MenuPages />
+            <MenuThemes />
+        </header>
+    )
 }
 export default Header;
