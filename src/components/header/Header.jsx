@@ -1,7 +1,6 @@
 import React from 'react'
 import TopHeader from './TopHeader';
 import SearchBarHeader from './SearchBarHeader';
-import MenuModal from './MenuModal';
 import MenuPages from './MenuPages';
 
 const Header = () => {
@@ -9,7 +8,6 @@ const Header = () => {
         <header className='sticky bg-white top-0'>
             <TopHeader />
             <SearchBarHeader />
-            <MenuModal />
             <MenuPages />
         </header>
     )
