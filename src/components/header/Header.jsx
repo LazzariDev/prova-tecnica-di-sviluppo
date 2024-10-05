@@ -8,10 +8,12 @@ import MenuThemes from './MenuThemes';
 const Header = () => {
     return (
         <header>
-            <TopHeader />
-            <SearchBarHeader />
-            <MenuModal />
-            <MenuPages />
+            <div className='sticky'>
+                <TopHeader />
+                <SearchBarHeader />
+                <MenuModal />
+                <MenuPages />
+            </div>
             <MenuThemes />
         </header>
     )
