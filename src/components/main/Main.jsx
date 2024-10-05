@@ -4,6 +4,7 @@ import Jumbo from './jumbo/Jumbo'
 import DividerSupport from './DividerSupport'
 import StoriesCollection from './storiesCollection/StoriesCollection'
 import DividerQuote from './DividerQuote'
+import BlogSection from './blogSection/BlogSection'
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         <DividerSupport />
         <StoriesCollection />
         <DividerQuote />
+        <BlogSection />
     </main>
   )
 }
