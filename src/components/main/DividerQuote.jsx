@@ -20,7 +20,7 @@ const DividerQuote = () => {
             style={{ backgroundImage: `url(${dividerQuoteImage})`}}
         >
             <svg className='absolute top-5 left-10' width="55" height="44" viewBox="0 0 55 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19.89 0L16.15 20.74H22.95V43.69H0V20.4L6.12 0H19.89ZM51.85 0L48.11 20.74H54.91V43.69H31.96V20.4L38.08 0H51.85Z" fill="white" fill-opacity="0.1"/>
+                <path d="M19.89 0L16.15 20.74H22.95V43.69H0V20.4L6.12 0H19.89ZM51.85 0L48.11 20.74H54.91V43.69H31.96V20.4L38.08 0H51.85Z" fill="white" fillOpacity="0.1"/>
             </svg>
 
             {/* Quote */}
