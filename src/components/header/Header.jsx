@@ -6,13 +6,11 @@ import MenuPages from './MenuPages';
 
 const Header = () => {
     return (
-        <header>
-            <div className='sticky'>
-                <TopHeader />
-                <SearchBarHeader />
-                <MenuModal />
-                <MenuPages />
-            </div>
+        <header className='sticky bg-white top-0'>
+            <TopHeader />
+            <SearchBarHeader />
+            <MenuModal />
+            <MenuPages />
         </header>
     )
 }
