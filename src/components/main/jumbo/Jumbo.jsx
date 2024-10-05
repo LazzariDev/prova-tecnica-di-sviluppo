@@ -1,4 +1,7 @@
 import React from 'react'
+import JumboSecond from './JumboSecond'
+import JumboThird from './JumboThird'
+import JumboFirst from './JumboFirst'
 
 const Jumbo = () => {
   return (
@@ -9,23 +12,11 @@ const Jumbo = () => {
         </div>
 
         {/* Desktop */}
-        <div className='hidden lg:flex w-full flex-col'>
-            <div className='w-full h-[500px] bg-red-500'>
-                1
-            </div>
-
+        <div className='hidden lg:flex w-full flex-col -z-10'>
+            <JumboFirst />
             <div className='flex w-full'>
-                <div className='w-2/3 h-[845px] bg-purple-700'>
-                2
-                </div>
-                <div className='flex flex-col w-1/3 h-[845px]'>
-                    <div className='w-full h-[471px] bg-green-500'>
-                        3
-                    </div>
-                    <div className='w-full h-[374px] bg-blue-700'>
-                        4
-                    </div>
-                </div> 
+                <JumboSecond />
+                <JumboThird />
             </div>
         </div>
     
