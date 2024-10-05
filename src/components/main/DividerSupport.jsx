@@ -13,7 +13,7 @@ const DividerSupport = () => {
             <a href="/" className='flex items-center gap-2 font-semibold'>
                 Dai il tuo contributo
                 <span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right"></i>
                 </span>
             </a>
         </div>
@@ -27,7 +27,7 @@ const DividerSupport = () => {
             <a href="/" className='flex items-center gap-2 font-semibold'>
                 Dai il tuo contributo
                 <span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i className="fa-solid fa-arrow-right"></i>
                 </span>
             </a>
         </div>

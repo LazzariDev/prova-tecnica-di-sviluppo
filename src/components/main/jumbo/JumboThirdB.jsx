@@ -15,7 +15,7 @@ const JumboThirdB = () => {
                 <h3 className='text-2xl font-bold text-white'>Nelle città italiane tutti in piazza per e con Kiev</h3>
                 <div className='flex flex-col gap-3'>
                     <div className='w-12 h-12'>
-                        <img className='rounded-full' src="https://picsum.photos/200" alt="User image" srcset="" />
+                        <img className='rounded-full' src="https://picsum.photos/200" alt="User image" />
                     </div>
                     <div className='flex flex-col text-white justify-between'>
                         <span>Di Alessando Puglia</span>
