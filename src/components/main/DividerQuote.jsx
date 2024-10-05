@@ -5,7 +5,7 @@ const DividerQuote = () => {
   return (
     <>
         {/* Mobile */}
-        <div className='lg:hidden w-full h-40 flex flex-col justify-center gap-5 bg-[#f4f4f4] px-10'>
+        <div className='lg:hidden w-full py-10 flex flex-col justify-center gap-5 bg-[#f4f4f4] px-10'>
 
             {/* Quote */}
             <h2 className='text-4xl text-black font-bold'>Essere troppo seri non è cosa molto seria</h2>
