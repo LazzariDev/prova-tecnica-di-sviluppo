@@ -8,7 +8,10 @@ const StoriesCollection = () => {
         {
             title: '“Qui Odessa”, fotografie, progetti e solidarietà',
             important: false,
-            tag: "Progetto Arca",
+            tag: {
+                title: "Progetto Arca",
+                color: "#ffffff"
+            },
             link: "/",
             user: {
                 profilePic: "https://picsum.photos/200",
@@ -20,7 +23,10 @@ const StoriesCollection = () => {
         {
             title: 'Storie fra ragazzi permeate di violenza. A Napoli 12enne sfregiata da 17enne',
             important: false,
-            tag: "Adolescenti",
+            tag: {
+                title: "Adolescenti",
+                color: "#e2f0f1"
+            },
             link: "/",
             user: {
                 profilePic: "https://picsum.photos/200",
@@ -32,7 +38,10 @@ const StoriesCollection = () => {
         {
             title: '“Co-agitiamo”, Tiggiano una cooperativa di comunità contro lo spopolamento',
             important: false,
-            tag: "Economia Civile",
+            tag: {
+                title: "Economia Civile",
+                color: "#f0e2f1"
+            },
             link: "/",
             user: {
                 profilePic: "https://picsum.photos/200",
@@ -44,7 +53,10 @@ const StoriesCollection = () => {
         {
             title: 'Troppi abusi nello sport minorile, il governo interviene',
             important: false,
-            tag: "Sport",
+            tag: {
+                title: "Sport",
+                color: "#f0e2f1"
+            },
             link: "/",
             user: {
                 profilePic: "https://picsum.photos/200",
@@ -56,7 +68,10 @@ const StoriesCollection = () => {
         {
             title: 'Donne e nuove generazioni: con loro riparte l’Italia',
             important: true,
-            tag: "Società",
+            tag: {
+                title: "Società",
+                color: "#e2f0f1"
+            },
             link: "/",
             user: {
                 profilePic: "https://picsum.photos/200",

@@ -18,6 +18,7 @@ const StorieCardDesktop = ({storie}) => {
     <div className={`
             h-[436px]
             bg-cover
+            bg-center
             ${storie.important ? 'col-span-2' : ''}
         `}
         style={{
@@ -27,12 +28,17 @@ const StorieCardDesktop = ({storie}) => {
 
         {/* Overlay */}
         <div className='w-full h-full bg-black bg-opacity-40'>
-            <div className="w-full h-full flex flex-col items-start justify-end px-10 pb-10 gap-10">
-                <span className='uppercase font-semibold text-black bg-[#e2f1e8] px-2 py-1 rounded-md'>{storie.tag}</span>
+            <div className={`w-full h-full flex flex-col px-10 pb-10 gap-10 ${!storie.important ? 'items-start justify-end' : 'items-end justify-start pt-10'}`}>
+                <span
+                    className='uppercase font-semibold text-black bg-[#e2f1e8] px-2 py-1 rounded-md'
+                    style={{ backgroundColor: `${storie?.tag?.color}`}}
+                >
+                    {storie?.tag?.title}
+                </span>
                 <h3 className='text-2xl font-bold text-white'>{storie?.title}</h3>
                 <div className='flex flex-col gap-3'>
                     <div className='w-12 h-12'>
-                        <img className='rounded-full' src={storie?.user?.profilePic} alt="User image"/>
+                        <img className='rounded-full' src={storie?.user?.profilePic} alt="User image" />
                     </div>
                     <div className='flex flex-col text-white justify-between'>
                         <span>{`Di ${storie?.user?.fullName}`}</span>

@@ -6,14 +6,19 @@ const imageMap = {
 }
 
 const StorieCardMobile = ({storie}) => {
-    let imgSrc = imageMap[storie?.backgroundPic]
+    let imgSrc = imageMap[storie?.backgroundPic];
 
     return (
         <>
             {!storie.important &&
             <div className='flex flex-col w-full p-10 gap-4 border-b-2 border-black'>
                 <div>
-                    <span className='uppercase px-2 py-1 bg-[#ffffff] rounded-md border border-black border-b-2 border-l-2'>{storie.tag}</span>
+                    <span 
+                        className='uppercase px-2 py-1 rounded-md border border-black border-b-2 border-l-2'
+                        style={{ backgroundColor: `${storie?.tag?.color}`}}
+                    >
+                            {storie?.tag?.title}
+                    </span>
                 </div>
                 <h3 className='text-xl font-bold text-black'>{storie.title}</h3>
                 <div className='flex gap-3'>
@@ -22,7 +27,7 @@ const StorieCardMobile = ({storie}) => {
                     </div>
                     <div className='flex flex-col text-black justify-between'>
                         <span>{`Di ${storie?.user?.fullName}`}</span>
-                        <span className='font-light text-xs'>14 Luglio 2022</span>
+                        <span className='font-light text-xs'>{storie?.user?.pubDateStr}</span>
                     </div>
                 </div>
                 
@@ -36,7 +41,12 @@ const StorieCardMobile = ({storie}) => {
                 >
                 </div>
                 <div>
-                    <span className='uppercase px-2 py-1 bg-[#ffffff] rounded-md border border-black border-b-2 border-l-2'>{storie.tag}</span>
+                    <span
+                        className='uppercase px-2 py-1 rounded-md border border-black border-b-2 border-l-2'
+                        style={{ backgroundColor: `${storie?.tag?.color}`}}
+                    >
+                        {storie?.tag?.title}
+                    </span>
                 </div>
                 <h3 className='text-xl font-bold text-black'>{storie.title}</h3>
                 <div className='flex gap-3'>
@@ -45,7 +55,7 @@ const StorieCardMobile = ({storie}) => {
                     </div>
                     <div className='flex flex-col text-black justify-between'>
                         <span>{`Di ${storie?.user?.fullName}`}</span>
-                        <span className='font-light text-xs'>14 Luglio 2022</span>
+                        <span className='font-light text-xs'>{storie?.user?.pubDateStr}</span>
                     </div>
                 </div>
                 
