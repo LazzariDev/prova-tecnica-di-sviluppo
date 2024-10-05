@@ -7,7 +7,7 @@ const MenuThemes = () => {
         <div id='menu-themes' className='lg:hidden flex flex-col items-start justify-around gap-y-4 w-full bg-[#f4f4f4] px-10 py-10'>
             <div className='flex justify-start items-center text-2xl font-bold gap-2'>
                 <h2>Tutti i temi</h2>
-                <i class="fa-solid fa-chevron-down"></i>
+                <i className="fa-solid fa-chevron-down"></i>
             </div>
             <div className='flex flex-wrap'>
                 <ul className='flex flex-wrap gap-3'>

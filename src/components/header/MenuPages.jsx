@@ -33,8 +33,8 @@ const MenuPages = () => {
             
             {/* Toggle text/image */}
             <div className='flex text-xl items-center gap-3'>
-                <i onClick={() => setIsImageBtnActive(false)} class={`fa-solid fa-font ${!isImageBtnActive ? 'border border-b-2 border-l-2 border-black p-2 rounded-sm' : ''}`}></i>
-                <i onClick={() => setIsImageBtnActive(true)} class={`fa-regular fa-image ${isImageBtnActive ? 'border border-b-2 border-l-2 border-black p-2 rounded-sm' : ''}`}></i>
+                <i onClick={() => setIsImageBtnActive(false)} className={`fa-solid fa-font ${!isImageBtnActive ? 'border border-b-2 border-l-2 border-black p-2 rounded-sm' : ''}`}></i>
+                <i onClick={() => setIsImageBtnActive(true)} className={`fa-regular fa-image ${isImageBtnActive ? 'border border-b-2 border-l-2 border-black p-2 rounded-sm' : ''}`}></i>
             </div>
         </div>
     )
